@@ -4,7 +4,7 @@ Project involving implementing Kalman Filter and sensor fusion (GPS, IMU, Hall E
 ## About
 x
 
-## Development
+## Design
 
 <p align="center">
   <img src="https://i.imgur.com/09ZYpva.png" width="613" height="438">
@@ -14,9 +14,13 @@ x
   <img src="https://i.imgur.com/jboK9KN.png" width="672" height="426">
 </p>
 
+## Development
+
 <p align="center">
   <img src="https://i.imgur.com/Bhq02v5.jpg" width="417" height="791">
 </p>
+
+## Results
 
 <p align="center">
   <img src="https://i.imgur.com/tKpTdKr.png" width="500" height="401">
