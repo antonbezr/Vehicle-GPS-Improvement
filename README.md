@@ -7,7 +7,7 @@ x
 ## Development
 
 <p align="center">
-  <img src="https://i.imgur.com/09ZYpva.png" width="875" height="625">
+  <img src="https://i.imgur.com/09ZYpva.png" width="613" height="438">
 </p>
 
 <p align="center">
