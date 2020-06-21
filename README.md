@@ -15,9 +15,5 @@ x
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/nyemQhG.jpg" width="490" height="325">
-</p>
-
-<p align="center">
-  <img src="https://i.imgur.com/KAkTgHj.jpg" width="490" height="660">
+  <img src="https://i.imgur.com/R4wo2ey.jpg" width="417" height="791">
 </p>
