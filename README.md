@@ -1,4 +1,4 @@
-# Vehicle-GPS-Improvement
+# Vehicle GPS Improvement
 
 Modern GPS as we know it is currently accurate on average to around approximately 2-5 m. In urban areas, with large buildings or tree coverage, GPS is even less accurate, sometimes having errors up to around 10+ m. GPS is most often used by vehicles as the main part of their navigation system. As modern vehicles continue to implement their own navigation systems, there is room for improving the positioning of these systems even more.
 
