@@ -11,7 +11,7 @@ x
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/jboK9KN.png" width="840" height="532">
+  <img src="https://i.imgur.com/jboK9KN.png" width="672" height="426">
 </p>
 
 <p align="center">
