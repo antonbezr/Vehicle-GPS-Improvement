@@ -15,5 +15,5 @@ x
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/nyemQhG.jpg" width="979" height="649">
+  <img src="https://i.imgur.com/nyemQhG.jpg" width="653" height="433">
 </p>
