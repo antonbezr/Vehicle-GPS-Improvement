@@ -4,15 +4,13 @@
 AltSoftSerial gpsPort;
 TinyGPSPlus gps;
 
-void setup(void) 
-{
+void setup(void) {
   Serial.begin(115200);
   gpsPort.begin(9600);
   delay(1000);
 }
 
-void loop(void) 
-{ 
+void loop(void) { 
   while (gpsPort.available()) {
     gps.encode(gpsPort.read());
   }
