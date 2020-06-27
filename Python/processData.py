@@ -139,8 +139,7 @@ def mapXY(i):
 
 def gpsCovarianceMatrix(i):
     gpsMaxError = 0
-    if uno_gps_satellites[i] <= 3: gpsMaxError = 9000
-    if uno_gps_satellites[i] == 4: gpsMaxError = 8000
+    if uno_gps_satellites[i] <= 4: gpsMaxError = 8000
     if uno_gps_satellites[i] == 5: gpsMaxError = 7000
     if uno_gps_satellites[i] == 6: gpsMaxError = 6000
     if uno_gps_satellites[i] == 7: gpsMaxError = 5000
