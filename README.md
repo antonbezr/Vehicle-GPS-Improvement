@@ -2,13 +2,7 @@
 
 Modern GPS is currently accurate on average to around approximately 2-5 m. In urban areas, with large buildings or tree coverage, GPS is even less accurate, sometimes having errors up to around 10+ m. GPS is most often used by vehicles as the main part of their navigation system. As modern vehicles continue to implement their own navigation systems, there is room for improving the positioning of these systems even more.
 
-This project attempts to improve GPS error by implementing a secondary positioning system for a vehicle to use alongside GPS. This secondary positioning system relies on the orientation of the vehicle and the size of its wheels in order to track its location.
-
-In order to develop this secondary positioning system, a variety of sensors are used including an IMU, hall effect sensor, and altimeter. Then, in order to combine these two positioning systems, I used a Kalman Filter.
-
-All of my testing and design was done using an RC car in order to simulate a real vehicle.
-
-Although there is much more room for improvement and ideas, this project consistently allows for better positioning accuracy in building dense areas and at times when GPS signal cuts out.
+This project attempts to improve GPS error by implementing a secondary positioning system for a vehicle to use alongside GPS. This secondary positioning system relies on the orientation of the vehicle and the size of its wheels in order to track its location. Although there is much more room for improvement and ideas, this project consistently allows for better positioning accuracy in building dense areas and at times when GPS signal cuts out.
 
 ## Design
 
@@ -23,6 +17,8 @@ This design uses
 </p>
 
 ## Development
+
+In order to develop this secondary positioning system, a variety of sensors are used including an IMU, hall effect sensor, and altimeter. Then, in order to combine these two positioning systems, I used a Kalman Filter. All of my testing and design was done using an RC car in order to simulate a real vehicle.
 
 In order to fuse the 
 
