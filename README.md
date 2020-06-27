@@ -16,11 +16,20 @@ Although there is much more room for improvement and ideas, this project consist
   <img src="https://i.imgur.com/09ZYpva.png" width="613" height="438">
 </p>
 
+This design uses
+
 <p align="center">
   <img src="https://i.imgur.com/jboK9KN.png" width="672" height="426">
 </p>
 
 ## Development
+
+In order to fuse the data from the GPS sensor and the secondary positioning unit, a Kalman Filter was used.
+
+A Kalman filter is a common tool used in control systems, often specifically used for navigational and guidance.
+
+
+is an algorithm that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more accurate than those based on a single measurement alone, by estimating a joint probability distribution over the variables for each timeframe.
 
 <p align="center">
   <img src="https://i.imgur.com/Bhq02v5.jpg" width="417" height="791">
