@@ -14,7 +14,14 @@ void setup() {
   Serial.begin(115200);
 }
 
-void interruptA(){
+void loop() {
+  if(oldEncPos != encoderPos) {
+    Serial.println(encoderPos);
+    oldEncPos = encoderPos;
+  }
+}
+
+void interruptA() {
   reading = PIND & 0xC;
   if(reading == B00001100 && aFlag) {
     encoderPos--;
@@ -24,7 +31,7 @@ void interruptA(){
   else if (reading == B00000100) bFlag = 1;
 }
 
-void interruptB(){
+void interruptB() {
   reading = PIND & 0xC;
   if (reading == B00001100 && bFlag) {
     encoderPos++;
@@ -32,11 +39,4 @@ void interruptB(){
     aFlag = 0;
   }
   else if (reading == B00001000) aFlag = 1;
-}
-
-void loop(){
-  if(oldEncPos != encoderPos) {
-    Serial.println(encoderPos);
-    oldEncPos = encoderPos;
-  }
 }
