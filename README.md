@@ -24,14 +24,12 @@ This design uses
 
 ## Development
 
-In order to fuse the data from the GPS sensor and the secondary positioning unit, a Kalman Filter was applied to process the raw data.
 
 A Kalman filter is a common tool used in control systems, often specifically used for navigational and guidance.
 
 
-is an algorithm that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more accurate than those based on a single measurement alone, by estimating a joint probability distribution over the variables for each timeframe.
+A Kalman filter is an algorithm that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more accurate than those based on a single measurement alone. Kalman filters are ideal for systems which are continuously changing. They have the advantage that they are light on memory (they don’t need to keep any history other than the previous state), and they are very fast, which made it very well suited for this application. For more information specifically regarding how a Kalman Filter works, please check out [Bzarg's incredible guide](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/).
 
-Kalman filters are ideal for systems which are continuously changing. They have the advantage that they are light on memory (they don’t need to keep any history other than the previous state), and they are very fast, which made it very well suited for this application. For more information specifically regarding how a Kalman Filter works, please check out [Bzarg's incredible guide](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/).
 
 <p align="center">
   <img src="https://i.imgur.com/Bhq02v5.jpg" width="417" height="791">
