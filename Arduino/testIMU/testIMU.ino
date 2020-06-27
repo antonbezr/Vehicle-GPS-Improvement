@@ -2,16 +2,14 @@
   
 Adafruit_BNO055 bno = Adafruit_BNO055(55);
 
-void setup(void) 
-{
+void setup(void) {
   Serial.begin(115200);
   bno.begin();
   bno.setExtCrystalUse(true);
   delay(1000);
 }
 
-void loop(void) 
-{
+void loop(void) {
   sensors_event_t event; 
   bno.getEvent(&event);
   
