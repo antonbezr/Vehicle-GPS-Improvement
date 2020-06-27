@@ -22,8 +22,9 @@ In order to develop this secondary positioning system, a variety of sensors are 
 
 In order to fuse the 
 
-A Kalman filter is an algorithm that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more accurate than those based on a single measurement alone. Kalman filters are ideal for systems which are continuously changing. They have the advantage that they are light on memory (they don’t need to keep any history other than the previous state), and they are very fast, making them well suited for real time problems and embedded systems.
+A Kalman filter is an algorithm that uses a series of measurements observed over time, containing statistical noise/inaccuracies, and produces estimates of unknown variables that tends to be more accurate. Kalman filters are ideal for systems which are continuously changing. They have the advantage that they are light on memory (they don’t need to keep any history other than the previous state), and they are very fast, making them well suited for real time problems and embedded systems.
 
+Below is the algorithm used for implementing both the secondary positioning system and the Kalman Filter.
 
 <p align="center">
   <img src="https://i.imgur.com/Bhq02v5.jpg" width="417" height="791">
