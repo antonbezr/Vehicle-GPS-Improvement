@@ -26,7 +26,7 @@ A Kalman filter is an algorithm that uses a series of measurements observed over
 
 Below is the algorithm which was used for implementing both the secondary positioning system and the Kalman Filter.
 <p align="center">
-  <img src="https://i.imgur.com/l2YEUAH.png" width="314.5" height="766">
+  <img src="https://i.imgur.com/l2YEUAH.png" width="766" height="419">
 </p>
 
 <p align="center">
