@@ -24,11 +24,9 @@ This design uses
 
 ## Development
 
+In order to fuse the 
 
-A Kalman filter is a common tool used in control systems, often specifically used for navigational and guidance.
-
-
-A Kalman filter is an algorithm that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more accurate than those based on a single measurement alone. Kalman filters are ideal for systems which are continuously changing. They have the advantage that they are light on memory (they don’t need to keep any history other than the previous state), and they are very fast, which made it very well suited for this application. For more information specifically regarding how a Kalman Filter works, please check out [Bzarg's incredible guide](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/).
+A Kalman filter is an algorithm that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more accurate than those based on a single measurement alone. Kalman filters are ideal for systems which are continuously changing. They have the advantage that they are light on memory (they don’t need to keep any history other than the previous state), and they are very fast, making them well suited for real time problems and embedded systems.
 
 
 <p align="center">
@@ -36,6 +34,9 @@ A Kalman filter is an algorithm that uses a series of measurements observed over
 </p>
 
 ## Results
+
+Testing was limited in this stage of the project, however I was able to achieve positive results with the algorithm which you can see below.
+
 
 <p align="center">
   <img src="https://i.imgur.com/tKpTdKr.png" width="500" height="401">
