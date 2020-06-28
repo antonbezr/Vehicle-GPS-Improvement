@@ -13,7 +13,7 @@ This project attempts to improve GPS error by implementing a secondary positioni
 This design uses
 
 <p align="center">
-  <img src="https://i.imgur.com/jboK9KN.png" width="672" height="426">
+  <img src="https://i.imgur.com/PaFHG6l.png" width="672" height="426">
 </p>
 
 ## Development
