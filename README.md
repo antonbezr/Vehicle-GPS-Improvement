@@ -16,11 +16,13 @@ Solely using a Rapsberry Pi would have been more viable, as it is equipped with 
   <img src="https://i.imgur.com/09ZYpva.png" width="613" height="438">
 </p>
 
-This design uses
+Furthermore, here is waht the project actually looked like, with everything mounted up to an RC car.
 
 <p align="center">
   <img src="https://i.imgur.com/PaFHG6l.png" width="672" height="426">
 </p>
+
+
 
 ## Development
 
