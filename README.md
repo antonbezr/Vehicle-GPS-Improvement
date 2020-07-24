@@ -2,9 +2,15 @@
 
 Modern GPS is currently accurate on average to around approximately 2-5 m. In urban areas, with large buildings or tree coverage, GPS is even less accurate, sometimes having errors up to around 10+ m. GPS is most often used by vehicles as the main part of their navigation system. As modern vehicles continue to implement their own navigation systems, there is room for improving the positioning of these systems even more.
 
-This project attempts to improve GPS error by implementing a secondary positioning system for a vehicle to use alongside GPS. This secondary positioning system relies on the orientation of the vehicle and the size of its wheels in order to track its location. Although there is much more room for improvement and ideas, this project consistently allows for better positioning accuracy in building dense areas and at times when GPS signal cuts out.
+This project attempts to improve GPS error by implementing a secondary positioning system for a vehicle to use alongside GPS. This secondary positioning system relies on the orientation of the vehicle and the size of its wheels in order to track its location. In order to combine the secondary positioning system with GPS, a [Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter) algorithm was implemented. Kalman filters are ideal for systems which are continuously changing. They have the advantage that they are light on memory (they don’t need to keep any history other than the previous state), and they are very fast, making them well suited for real time problems and embedded systems. 
+
+Although there is much more room for improvement and ideas, the design featured in this project consistently allows for better positioning accuracy in building dense areas, and at times when GPS signal cuts out.
 
 ## Design
+
+The design used in order to conduct tests and improve the algorithm features an Arduino Uno to control different sensors and output data, as well as a Raspberry Pi 4 to process the data using a Kalman filter. It is much more viable to simply use a Raspberry Pi as it is equipped with an I2C and serial port, however for easier  
+
+The system design for this project consisted of a few different sensors and two boards. The sensor unit consisted of an Arduino Uno to output all of the sensor measurements. The Arduino Uno was connected with a GPS, IMU, Hall Effect Sensor, and Altimeter. The Arduino Uno was able to efficiently collect data from all three sensors and output it to the Raspberry Pi 4. The measurement unit consisted of a Raspberry Pi 4 in order to execute the Kalman Filter. Finally, an OLED display in order to display the coordinates computer by the Raspberry Pi 4 to the user. Solely using a Rapsberry Pi would have been more viable, as it is equipped with an I2C and serial port, however the main focus of this project was implementing the Kalman filter rather than spending time getting sensors to work. Thus, the Arduino was necessary.
 
 <p align="center">
   <img src="https://i.imgur.com/09ZYpva.png" width="613" height="438">
@@ -32,7 +38,7 @@ Below is the algorithm which was used for implementing both the secondary positi
 
 https://i.imgur.com/PIl4pCA.jpg
 
-## Results
+## Results/Usage
 
 Testing was limited in this stage of the project, however I was able to achieve positive results with the algorithm which you can see below.
 
