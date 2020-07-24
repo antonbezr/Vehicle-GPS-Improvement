@@ -15,9 +15,9 @@ Solely using a Rapsberry Pi would have been more viable, as it is equipped with 
 <p align="center">
   <img src="https://i.imgur.com/09ZYpva.png" width="613" height="438">
 </p>
-
 Furthermore, here is what the project actually looked like, with everything mounted up to an RC car.
 &nbsp;
+
 
 <p align="center">
   <img src="https://i.imgur.com/PaFHG6l.png" width="672" height="426">
