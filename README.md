@@ -8,7 +8,9 @@ Although there is much more room for improvement and ideas, the design featured 
 
 ## Design
 
-The system design for this project consisted of a few different sensors and two boards. The sensor unit consisted of an Arduino Uno to output all of the sensor measurements. The Arduino Uno was connected with a GPS, IMU, Hall Effect Sensor, and Altimeter. The Arduino Uno was able to efficiently collect data from all three sensors and output it to the Raspberry Pi 4. The measurement unit consisted of a Raspberry Pi 4 in order to execute the Kalman Filter. Finally, an OLED display in order to display the coordinates computer by the Raspberry Pi 4 to the user. Solely using a Rapsberry Pi would have been more viable, as it is equipped with an I2C and serial port, however the main focus of this project was implementing the Kalman filter rather than spending time getting sensors to work. Thus, the Arduino was necessary. Below the schematic for the final design is shown.
+The system design for this project consisted of several different sensors and two boards (controllers). There were two units in the prject, the sensor unit, and the measurement unit. The sensor unit consisted of an Arduino Uno to output all of the sensor measurements. The Arduino Uno was connected with a GPS, IMU, Hall Effect Sensor, and Altimeter. The Arduino Uno was able to efficiently collect data from all three sensors and output it to the Raspberry Pi 4. The measurement unit consisted of a Raspberry Pi 4 in order to execute the Kalman Filter. Finally, an OLED display was used in order to display the coordinates computer by the Raspberry Pi 4 to the user.
+
+Solely using a Rapsberry Pi would have been more viable, as it is equipped with an I2C and serial port, however the main focus of this project was implementing the Kalman filter rather than spending too much time trying to get different sensors to work. Thus, the Arduino was very helpful with its many useful libraries. Below the schematic for the final design is shown.
 
 <p align="center">
   <img src="https://i.imgur.com/09ZYpva.png" width="613" height="438">
