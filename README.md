@@ -29,7 +29,7 @@ Furthermore, here is what the project actually looked like, with everything moun
 
 A Kalman filter is an algorithm that uses a series of measurements observed over time, containing statistical noise/inaccuracies, and produces estimates of unknown variables that tends to be more accurate. Kalman filters are ideal for systems which are continuously changing. They are commonly used in navigation applications, particularly in the aircraft field.
 
-Below are the algorithms which were developed for this project, containing both the secondary positioning system and the Kalman Filter.
+Below are the algorithms which were developed for this project (both the secondary positioning system and the Kalman Filter).
 
 <p align="center">
   <img src="https://i.imgur.com/UV8jKdG.png" width="800" height="483">
