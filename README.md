@@ -15,7 +15,7 @@ Solely using a Rapsberry Pi would have been more viable, as it is equipped with 
 <p align="center">
   <img src="https://i.imgur.com/09ZYpva.png" width="613" height="438">
 </p>
-Furthermore, here is what the project actually looked like, with everything mounted up to an RC car. Using an RC car allowed for a many different test runs where the true path the vehicle took was able to be reconstructed precisely. This way it was possible to accurately gauge the error from our algorithm and adjust appropriately.
+Furthermore, here is what the project actually looked like, with everything mounted up to an RC car. Using an RC car allowed for many different test runs where the true vehicle path was able to be reconstructed precisely. This way it was possible to very accurately gauge the error from our algorithm and adjust appropriately.
 
 &nbsp;
 
@@ -23,17 +23,13 @@ Furthermore, here is what the project actually looked like, with everything moun
   <img src="https://i.imgur.com/PaFHG6l.png" width="672" height="426">
 </p>
 
-
-
 ## Development
 
-In order to develop this secondary positioning system, a variety of sensors are used including an IMU, hall effect sensor, and altimeter. Then, in order to combine these two positioning systems, I used a Kalman Filter. All of my testing and design was done using an RC car in order to simulate a real vehicle.
+*In order to develop this secondary positioning system, a variety of sensors are used including an IMU, hall effect sensor, and altimeter. Then, in order to combine these two positioning systems, I used a Kalman Filter. All of my testing and design was done using an RC car in order to simulate a real vehicle.*
 
-In order to fuse the 
+A Kalman filter is an algorithm that uses a series of measurements observed over time, containing statistical noise/inaccuracies, and produces estimates of unknown variables that tends to be more accurate. Kalman filters are ideal for systems which are continuously changing. They are commonly used in navigation applications, particularly in the aircraft field.
 
-A Kalman filter is an algorithm that uses a series of measurements observed over time, containing statistical noise/inaccuracies, and produces estimates of unknown variables that tends to be more accurate. Kalman filters are ideal for systems which are continuously changing. They have the advantage that they are light on memory (they don’t need to keep any history other than the previous state), and they are very fast, making them well suited for real time problems and embedded systems.
-
-Below is the algorithm which was used for implementing both the secondary positioning system and the Kalman Filter.
+Below are the algorithms which were developed for this project, containing both the secondary positioning system and the Kalman Filter.
 
 <p align="center">
   <img src="https://i.imgur.com/rqvfQbo.png" width="800" height="483">
