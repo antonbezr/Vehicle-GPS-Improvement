@@ -32,10 +32,33 @@ A Kalman filter is an algorithm that uses a series of measurements observed over
   <img src="https://i.imgur.com/UV8jKdG.png" width="95%" height="95%">
 </p>
 
-## Results/Usage
+## Results
 
-Testing was limited in this stage of the project, however I was able to achieve positive results with the algorithm which you can see below.
+Overall, this project was able to successfully improve positional accuracy of GPS. Below is a path taken by the RC car showcasing the improved accuracy the system was able to achieve. In this case, in comparison to the average GPS error of 2.59 m, the average error of the system was 1.77 m. 
 
 <p align="center">
-  <img src="https://i.imgur.com/tKpTdKr.png" width="500" height="401">
+  <img src="https://i.imgur.com/tKpTdKr.png" width="70%" height="70%">
 </p>
+
+There are cases in which the accuracy of the system is lower than that of just GPS, however this is mostly for shorter paths. In general, there is little to no drawback in implementing this system. There is much more work that can be done in order to lower costs and improve accuracy, however this project was built for an educational purpose.
+
+## Usage
+
+### Raspberry Pi
+
+`processData.py` file
+
+
+### Arduino
+
+`car.ino` contains the final sketch uploaded to the Arduino to output all sensor measurements.
+`compass.ino` contains the magnemometer compass which was not used in the final version
+
+Required Arduino libraries:
+* `AltSoftSerial`
+* `TinyGPSPlus-1.0.2b`
+* `Adafruit_Unified_Sensor`
+* `Adafruit_BNO055`
+* `SparkFun_MPL3115A2_Altitude_and_Pressure_Sensor_Breakout`
+
+
