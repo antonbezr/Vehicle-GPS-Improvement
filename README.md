@@ -34,13 +34,15 @@ A Kalman filter is an algorithm that uses a series of measurements observed over
 
 ## Results
 
-Overall, this project was able to successfully improve positional accuracy of GPS. Below is a path taken by the RC car showcasing the improved accuracy the system was able to achieve. In this case, in comparison to the average GPS error of 2.59 m, the average error of the system was 1.77 m. 
+Overall, his project was able to successfully improve positional accuracy of GPS. Below is a path taken by the RC car showcasing the improved accuracy the system was able to achieve. In this case, in comparison to the average GPS error of 2.59 m, the average error of the system was 1.77 m. 
 
 <p align="center">
   <img src="https://i.imgur.com/tKpTdKr.png" width="70%" height="70%">
 </p>
 
-There are cases in which the accuracy of the system is lower than that of just GPS, however this is mostly for shorter paths. In general, there is little to no drawback in implementing this system. There is much more work that can be done in order to lower costs and improve accuracy, however this project was built for an educational purpose.
+There are cases in which the accuracy of the system is lower than that of just GPS, however this is mostly for shorter paths. In general, there is little to no drawback in implementing this system. For longer paths, especially in urban environments, the accuracy will undoubtedly be improved.
+
+From the current progress it is clear that a lot can still be done in order to lower costs and improve accuracy. However, this project was built for an educational purpose and the results were quite satisfactory.
 
 ## Usage
 
