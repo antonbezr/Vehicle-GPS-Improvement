@@ -48,13 +48,15 @@ From the current progress it is clear that a lot can still be done in order to l
 
 ### Raspberry Pi
 
-`storeData.py`: collects all the data outputted by the Arduino.
+`storeData.py` - collects all the data outputted by the Arduino.
 
-`processData.py`: performs the Kalman filter using all the data outputted by the Arduino.
+`processData.py` - performs the Kalman filter using all the data outputted by the Arduino.
 
 ### Arduino
 
-`car.ino`: contains the final sketch uploaded to the Arduino to output all sensor measurements.
+`car.ino` - the final sketch uploaded to the Arduino to output all sensor measurements.
+
+`compass.ino` - an IMU compass allowing for testing of the magnetic heading.
 
 Required Arduino libraries:
 * `AltSoftSerial`
