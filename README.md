@@ -13,7 +13,7 @@ The system design for this project consisted of several different sensors and tw
 Solely using a Rapsberry Pi would have been more viable, as it is equipped with an I2C and serial port, however the main focus of this project was implementing the Kalman filter rather than spending too much time trying to get different sensors to work. Thus, the Arduino was very helpful with its many useful libraries. Below the schematic for the final design is shown.
 
 <p align="center">
-  <img src="https://i.imgur.com/09ZYpva.png" width="60%" height="60%">
+  <img src="https://i.imgur.com/09ZYpva.png" width="70%" height="70%">
 </p>
 
 Furthermore, here is what the project actually looked like, with everything mounted up to an RC car. Using an RC car allowed for many different test runs where the true vehicle path was able to be reconstructed precisely. This way it was possible to very accurately gauge the error from the algorithm and adjust appropriately.
