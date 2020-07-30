@@ -37,7 +37,7 @@ A Kalman filter is an algorithm that uses a series of measurements observed over
 
 
 <p align="center">
-  <img src="https://i.imgur.com/UV8jKdG.png" width="50%" height="50%">
+  <img src="https://i.imgur.com/UV8jKdG.png" width="80%" height="80%">
 </p>
 
 ## Results/Usage
