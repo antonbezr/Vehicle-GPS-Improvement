@@ -18,8 +18,6 @@ Solely using a Rapsberry Pi would have been more viable, as it is equipped with 
 
 Furthermore, here is what the project actually looked like, with everything mounted up to an RC car. Using an RC car allowed for many different test runs where the true vehicle path was able to be reconstructed precisely. This way it was possible to very accurately gauge the error from the algorithm and adjust appropriately.
 
-&nbsp;
-
 <p align="center">
   <img src="https://i.imgur.com/PaFHG6l.png" width="70%" height="70%">
 </p>
