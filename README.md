@@ -48,13 +48,12 @@ From the current progress it is clear that a lot can still be done in order to l
 
 ### Raspberry Pi
 
-`processData.py` file
-
+`storeData.py`: collects all the data outputted by the Arduino.
+`processData.py`: performs the Kalman filter using all the data outputted by the Arduino.
 
 ### Arduino
 
-`car.ino` contains the final sketch uploaded to the Arduino to output all sensor measurements.
-`compass.ino` contains the magnemometer compass which was not used in the final version
+`car.ino`: contains the final sketch uploaded to the Arduino to output all sensor measurements.
 
 Required Arduino libraries:
 * `AltSoftSerial`
