@@ -49,6 +49,7 @@ From the current progress it is clear that a lot can still be done in order to l
 ### Raspberry Pi
 
 `storeData.py`: collects all the data outputted by the Arduino.
+
 `processData.py`: performs the Kalman filter using all the data outputted by the Arduino.
 
 ### Arduino
