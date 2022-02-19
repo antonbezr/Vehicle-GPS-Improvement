@@ -24,7 +24,7 @@ Furthermore, here is what the project actually looked like, with everything moun
 
 ## Development
 
-The Arduino Uno was developed so that it would output sensor measurements any time there was a new reading from a sesnor. This data was then transferred to the Raspberry Pi 4 via serial port. Afterward, the sensor measurements were combined using a Kalman filter to determine position. After calculation, the computed GPS coordinate was sent to the OLED display.
+The Arduino Uno was developed so that it would output sensor measurements any time there was a new reading from a sensor. This data was then transferred to the Raspberry Pi 4 via serial port. Afterward, the sensor measurements were combined using a Kalman filter to determine position. After calculation, the computed GPS coordinate was sent to the OLED display.
 
 A Kalman filter is an algorithm that uses a series of measurements observed over time, containing statistical noise/inaccuracies, and produces estimates of unknown variables that tends to be more accurate. Kalman filters are ideal for systems which are continuously changing. They are commonly used in navigation applications, particularly in the aircraft field. Below are the algorithms which were developed for this project (both the secondary positioning system and the Kalman Filter).
 
